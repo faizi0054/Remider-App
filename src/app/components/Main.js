@@ -1,10 +1,11 @@
 import React from 'react';
-
-const Main = () => {
+const Main = ({ onLogout }) => {
   return (
     <div>
       <h1 className='app-title'>Reminder App</h1>
-       <button className='logout'>LOGOUT</button>
+      <button className='logout' onClick={onLogout}>
+        LOGOUT
+      </button>
     </div>
   );
 };
