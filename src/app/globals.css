@@ -132,3 +132,115 @@ body {
   border-radius: 3px;
   font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  /* Your container styles */
+}
+
+/* Other styles for your app */
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list-time {
+  font-size: 14px;
+  color: #777;
+}
+
+.remove-button {
+  background-color: #ff5858;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Add these styles to your Main.css or your preferred stylesheet */
+
+.edit-button,
+.save-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-button:hover,
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button:focus,
+.save-button:focus {
+  outline: none;
+}
+
+.save-button {
+  background-color: #28a745;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.remove-button {
+  background-color: #ff5858;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
